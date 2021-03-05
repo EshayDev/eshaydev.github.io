@@ -10,3 +10,16 @@ MD5sum: bf55710ace3c2bff0f1280e3de3df2ef
 Description: Minimalist GPS spoofer (free, iOS 13+)
 Name: Relocate Reborn
 Author: Nepeta
+
+Package: com.affimbr.callmagic
+Version: 1.0
+Section: Tweaks
+Maintainer: affimbr
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: ./debs/com.affimbr.callmagic_1.0_iphoneos-arm.deb
+Size: 87166
+MD5sum: 37fade9d7573d62600c8a75c63d97ccc
+Description: Advanced call features.
+Name: CallMagic
+Author: affimbr
