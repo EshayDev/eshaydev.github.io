@@ -10,6 +10,7 @@ MD5sum: bf55710ace3c2bff0f1280e3de3df2ef
 Description: Minimalist GPS spoofer (free, iOS 13+)
 Name: Relocate Reborn
 Author: Nepeta
+Icon: https://i.ibb.co/cXs0j1R/icon-2x.png
 
 Package: com.affimbr.callmagic
 Version: 1.0
