@@ -23,3 +23,17 @@ MD5sum: 37fade9d7573d62600c8a75c63d97ccc
 Description: Advanced call features.
 Name: CallMagic
 Author: affimbr
+
+Package: com.blakeboxberger.honey
+Version: 2.0k
+Section: Tweaks
+Maintainer: Blake Boxberger
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Conflicts: com.blakeboxberger.dockremover
+Architecture: iphoneos-arm
+Filename: ./debs/com.blakeboxberger.honey_2.0k_iphoneos-arm.deb
+Size: 432
+MD5sum: 9ad01fa92c26f091eda6df5b559def8c
+Description: The watchOS app launcher, now on your iOS device!
+Name: Honey (iOS 11 - 14)
+Author: Blake Boxberger
