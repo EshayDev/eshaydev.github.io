@@ -24,6 +24,7 @@ MD5sum: 37fade9d7573d62600c8a75c63d97ccc
 Description: Advanced call features.
 Name: CallMagic
 Author: affimbr
+Icon: https://i.ibb.co/YPxg9GK/A82-CB9-A0-6419-4348-9-C3-A-8191-CF4-E3-EC8.png
 
 Package: com.blakeboxberger.honey
 Version: 2.0k
