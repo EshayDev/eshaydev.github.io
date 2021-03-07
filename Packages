@@ -40,3 +40,17 @@ Description: The watchOS app launcher, now on your iOS device!
 Name: Honey (iOS 11 - 14)
 Author: Blake Boxberger
 Icon: https://i.ibb.co/0sCPhdF/icon-2x.png
+
+Package: openjdk-16-jre
+Version: 16.0.0+git20201217.8383f41-2
+Section: Development
+Maintainer: Hayden Seay
+Architecture: iphoneos-arm
+Filename: ./debs/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb
+Size: 333104
+MD5sum: 14a4c7c7c411a4a7c469cdcadc2680ee
+Description: OpenJDK Java runtime, using Hotspot JIT
+  Minimal Java runtime - needed for executing non GUI Java programs,
+  using Hotspot JIT.
+Author: Hayden Seay
+Icon: https://i.ibb.co/LSkNNcB/icon-2x.png
