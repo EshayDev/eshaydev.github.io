@@ -54,3 +54,16 @@ Description: OpenJDK Java runtime, using Hotspot JIT
   using Hotspot JIT.
 Author: Hayden Seay
 Icon: https://i.ibb.co/LSkNNcB/icon-2x.png
+
+Package: pojavlauncher
+Version: 1.1
+Section: Games
+Maintainer: DuyKhanhTran
+Architecture: iphoneos-arm
+Depends: openjdk-16-jre
+Filename: ./debs/pojavlauncher_iphoneos-arm.deb
+MD5sum: 6c457576813906dd5ae5eb2d697c5791
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android
+Author: DuyKhanhTran
+Name: PojavLauncher
+Icon: https://i.ibb.co/Dw1Dyvh/icon-2x.png
