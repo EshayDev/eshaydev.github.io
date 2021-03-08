@@ -67,3 +67,15 @@ Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher An
 Author: DuyKhanhTran
 Name: PojavLauncher
 Icon: https://i.ibb.co/Dw1Dyvh/icon-2x.png
+
+Package: com.yoshisuga.mame4ios
+Version: 2021.4
+Section: Games
+Maintainer: yoshisuga
+Architecture: iphoneos-arm
+Filename: ./debs/com.yoshisuga.mame4ios_2021.4_iphoneos-arm.deb
+MD5sum: 2317d8e33ed83ba7d2370e4753141e72
+Description: This is a port of MAME 0.139u1 for iOS 12+, iPadOS 12+, tvOS 12+ and on both macOS Catalina & Big Sur using Mac Catalyst.
+Name: MAME4iOS
+Author: yoshisuga
+Icon: https://i.ibb.co/2YH4Phw/icon-2x.png
