@@ -1,81 +1,105 @@
-Package: me.nepeta.relocatereborn
-Version: 1.0.1
-Section: Tweaks
-Maintainer: Nepeta
-Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
-Architecture: iphoneos-arm
-Filename: ./debs/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
-Size: 69736
-MD5sum: bf55710ace3c2bff0f1280e3de3df2ef
-Description: Minimalist GPS spoofer (free, iOS 13+)
-Name: Relocate Reborn
-Author: Nepeta
-Icon: https://i.ibb.co/cXs0j1R/icon-2x.png
-
 Package: com.affimbr.callmagic
 Version: 1.0
-Section: Tweaks
-Maintainer: affimbr
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: ./debs/com.affimbr.callmagic_1.0_iphoneos-arm.deb
-Size: 87166
-MD5sum: 37fade9d7573d62600c8a75c63d97ccc
+Maintainer: affimbr <affimbr@gmail.com>
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
+Filename: debs/com.affimbr.callmagic_1.0_iphoneos-arm.deb
+Size: 87198
+MD5sum: 99ec5cdf9a68d9d46ee158737b5f81f4
+SHA1: ee90c3842485cd7c117ab2801482ce31b75a9960
+SHA256: 773084eaafe3f652349b7be5833fdf183382a1751ce11536598434744f1e2c30
+Section: Tweaks
+Homepage: https://affimbr.github.io/repo/#callmagic
 Description: Advanced call features.
-Name: CallMagic
-Author: affimbr
+Author: affimbr <affimbr@gmail.com>
 Icon: https://i.ibb.co/YPxg9GK/A82-CB9-A0-6419-4348-9-C3-A-8191-CF4-E3-EC8.png
+Name: CallMagic
 
 Package: com.blakeboxberger.honey
 Version: 2.0k
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Blake Boxberger
+Installed-Size: 432
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common
 Conflicts: com.blakeboxberger.dockremover
-Architecture: iphoneos-arm
-Filename: ./debs/com.blakeboxberger.honey_2.0k_iphoneos-arm.deb
-Size: 432
-MD5sum: 9ad01fa92c26f091eda6df5b559def8c
+Filename: debs/com.blakeboxberger.honey_2.0k_iphoneos-arm.deb
+Size: 89170
+MD5sum: fcc974c02366e9bc18f0bdb3c9a7350e
+SHA1: 5d27d943e635a1543967740a3055c4af0e40a93f
+SHA256: e3445083f41b30b4abde045e0057c42de932b4f1c85396dc420a38109128beca
+Section: Tweaks
 Description: The watchOS app launcher, now on your iOS device!
-Name: Honey (iOS 11 - 14)
 Author: Blake Boxberger
 Icon: https://i.ibb.co/0sCPhdF/icon-2x.png
+Name: Honey (iOS 11 - 14)
+
+Package: com.yoshisuga.mame4ios
+Version: 2021.4
+Architecture: iphoneos-arm
+Maintainer: yoshisuga
+Filename: debs/com.yoshisuga.mame4ios_2021.4_iphoneos-arm.deb
+Size: 25388072
+MD5sum: 51542feb7dadc0289917981ac6910141
+SHA1: b27eedba7c9bbc445d8cbe081ee0d387ea055967
+SHA256: 8daf06ab8541aa6f1ea813f58c5b930a0cb5ec0215ca92b281e569cb30b44829
+Section: Games
+Description: This is a port of MAME 0.139u1 for iOS 12+, iPadOS 12+, tvOS 12+ and on both macOS Catalina & Big Sur using Mac Catalyst.
+Author: yoshisuga
+Icon: https://i.ibb.co/2YH4Phw/icon-2x.png
+Name: MAME4iOS
+
+Package: me.nepeta.relocatereborn
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 492
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 13.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7), preferenceloader
+Conflicts: me.nepeta.relocate
+Filename: debs/me.nepeta.relocatereborn_1.0.1_iphoneos-arm.deb
+Size: 117408
+MD5sum: b393e4f3d9505a11114236ba6e2835f4
+SHA1: 32e8099118d3a0aa8cd4d7315693a6e27ebbfeb1
+SHA256: ec9abeb51c4e7b9a5040ff05a0979a9364909d9b288bafab78a6005c88ed01ff
+Section: Tweaks
+Description: Minimalist GPS spoofer (free, iOS 13+)
+Author: Nepeta
+Icon: https://i.ibb.co/cXs0j1R/icon-2x.png
+Name: Relocate Reborn
 
 Package: openjdk-16-jre
 Version: 16.0.0+git20201217.8383f41-2
-Section: Development
-Maintainer: Hayden Seay
 Architecture: iphoneos-arm
-Filename: ./debs/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb
-Size: 333104
-MD5sum: 14a4c7c7c411a4a7c469cdcadc2680ee
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 333104
+Filename: debs/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb
+Size: 58095960
+MD5sum: 49d367435ebbad5e3dbdab3b0a2b928a
+SHA1: acf01dcc1ef560e40ede49abf5dce10e36aa6cad
+SHA256: d5061f2c624761e7dc252b48bcae45bcce10b6a4337b73ee23d91bd598886791
+Section: Development
+Priority: optional
+Homepage: https://github.com/openjdk/aarch64-port/tree/jdk-macos
 Description: OpenJDK Java runtime, using Hotspot JIT
-  Minimal Java runtime - needed for executing non GUI Java programs,
-  using Hotspot JIT.
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot JIT.
 Author: Hayden Seay
 Icon: https://i.ibb.co/LSkNNcB/icon-2x.png
 
 Package: pojavlauncher
 Version: 1.1
-Section: Games
+Architecture: iphoneos-arm
 Maintainer: DuyKhanhTran
-Architecture: iphoneos-arm
 Depends: openjdk-16-jre
-Filename: ./debs/pojavlauncher_iphoneos-arm.deb
-MD5sum: 6c457576813906dd5ae5eb2d697c5791
-Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android
-Author: DuyKhanhTran
-Name: PojavLauncher
-Icon: https://i.ibb.co/Dw1Dyvh/icon-2x.png
-
-Package: com.yoshisuga.mame4ios
-Version: 2021.4
+Filename: debs/pojavlauncher_1.1_iphoneos-arm.deb
+Size: 12849962
+MD5sum: 3e375825c32fffe34d114ed2ee477215
+SHA1: 1448961aa786280bffc837e272208786baa4b275
+SHA256: fdf9c8e2751744f4819c611a5475ac6a59710d22da0a74db0d7a63403bb34842
 Section: Games
-Maintainer: yoshisuga
-Architecture: iphoneos-arm
-Filename: ./debs/com.yoshisuga.mame4ios_2021.4_iphoneos-arm.deb
-MD5sum: 2317d8e33ed83ba7d2370e4753141e72
-Description: This is a port of MAME 0.139u1 for iOS 12+, iPadOS 12+, tvOS 12+ and on both macOS Catalina & Big Sur using Mac Catalyst.
-Name: MAME4iOS
-Author: yoshisuga
-Icon: https://i.ibb.co/2YH4Phw/icon-2x.png
+Priority: optional
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Author: DuyKhanhTran
+Icon: https://i.ibb.co/Dw1Dyvh/icon-2x.png
+Name: PojavLauncher
+
