@@ -15,6 +15,29 @@ Author: affimbr <affimbr@gmail.com>
 Icon: https://i.ibb.co/YPxg9GK/A82-CB9-A0-6419-4348-9-C3-A-8191-CF4-E3-EC8.png
 Name: CallMagic
 
+Package: com.afnanahmad.chromahomebarx
+Version: 0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 642
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/com.afnanahmad.chromahomebarx_0.4_iphoneos-arm.deb
+Size: 100680
+MD5sum: e363693b8b90407113a8c9738205985f
+SHA1: 453f96d587b020e304fa558907a245619cdadd63
+SHA256: 95a6e42908b17a61b8d4ee16024b68953fe0c248c5cfccbce2a31e539e016036
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Dev: afnanahmad
+Icon: file:///Library/PreferenceBundles/ChromaHomeBarX.bundle/chroma@2x.png
+Name: ChromaHomeBarX
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.blakeboxberger.honey
 Version: 2.0k
 Architecture: iphoneos-arm
@@ -33,6 +56,273 @@ Author: Blake Boxberger
 Icon: https://i.ibb.co/0sCPhdF/icon-2x.png
 Name: Honey (iOS 11 - 14)
 
+Package: com.imkpatil.colormybattery
+Version: 1.3.3.1
+Architecture: iphoneos-arm
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 368
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.imkpatil.colormybattery_1.3.3.1_iphoneos-arm.deb
+Size: 37546
+MD5sum: 64a1e93fef3c3e388e716e44c597d24f
+SHA1: fc47e2808f5e72bea5f2b060ab7389e957298691
+SHA256: b8ebdcd1a8258e165db3624f4cde3cab59a35cfec494f53a00c398c6e87bd0c9
+Section: Tweaks
+Description: Battery Color based on the battery percentage.
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/Application Support/ColorMyBattery/icon.png
+Name: ColorMyBattery
+
+Package: com.itsjafer.bettermultitasking
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: itsjafer <itsjafer@gmail.com>
+Installed-Size: 284
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.spark.libsparkapplist
+Filename: debs/com.itsjafer.bettermultitasking_1.2.0_iphoneos-arm.deb
+Size: 10766
+MD5sum: bdb627f1206b588549963f88a629f145
+SHA1: d0508a8d9c2c45a66b4ac1e19e63ec717c0ecc78
+SHA256: c504f1c0635c46a4696d3881f2166c16e21153898941223afb2cc33fa7cc8745
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: itsjafer <itsjafer@gmail.com>
+Depiction: https://itsjafer.com/repo/depictions/?p=com.itsjafer.bettermultitasking
+Name: BetterMultitasking
+
+Package: com.itsjafer.bigpipenergy
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: itsjafer <itsjafer@gmail.com>
+Installed-Size: 284
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: debs/com.itsjafer.bigpipenergy_1.3.0_iphoneos-arm.deb
+Size: 9160
+MD5sum: 9a87dc9ece2d40375cbc5194b9d9266f
+SHA1: 1bf78355963d597384db388fda9d777a1a3fb6b6
+SHA256: 1e5d87778b59b7eea2f0fab9104f005d762088e42f5334df45963ce9ab2bdbd4
+Section: Tweaks
+Description: Removes the max size on Picture in Picture.
+Author: itsjafer <itsjafer@gmail.com>
+Depiction: https://itsjafer.com/repo/depictions/?p=com.itsjafer.bigpipenergy
+Name: BigPiPEnergy
+
+Package: com.ivanc.accent
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 427
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common, applist
+Filename: debs/com.ivanc.accent_1.4.0_iphoneos-arm.deb
+Size: 42652
+MD5sum: e2b44176e9407e0de02936af7cdb6456
+SHA1: 9202f65cc76d8dff649cdf605dc326ee979e2e9f
+SHA256: 0524c48c170493bb0f405c482c4e61eaa07a4afb56afb428f08698aa694950ef
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=accentDp
+Description: iOS accent colors in macOS style!
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Ivan Cristina <ivancristina5@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=accentDp
+Dev: ivancristina
+Icon: file:///Library/PreferenceBundles/AccentPreferences.bundle/icon@2x.png
+Name: Accent
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.julioverne.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: debs/com.julioverne.cydown_7.1.1_iphoneos-arm.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+
+Package: com.julioverne.goodwifi
+Version: 0.0~beta6
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.julioverne.goodwifi_0.0~beta6_iphoneos-arm.deb
+Size: 155794
+MD5sum: b7a838690e17bd7cb1611640e849f50f
+SHA1: 440a1040b3886c698ad35fa2893ac7a1f418c3a5
+SHA256: 24455e831fd73bf9149f8d5eab91fee4cbec2dab103ebe63f070b8f5e7a1f377
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Better WiFi Preferences
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.goodwifi
+Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
+Name: GoodWiFi
+
+Package: com.julioverne.lowerinstall
+Version: 0.0~beta3
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate
+Filename: debs/com.julioverne.lowerinstall_0.0~beta3_iphoneos-arm.deb
+Size: 39614
+MD5sum: 375d896161131f0c85ad4ed7ba79792c
+SHA1: 7a289611811b44e5613c8a778be4479cce931b80
+SHA256: 18f0ef8c40438d1dc9e1b7633879003123c30ccfc76c914afec4bfa04c5b64cb
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Install Apps In Lower iOS Version
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.lowerinstall
+Name: LowerInstall
+
+Package: com.junesiphone.xeninfo
+Version: 2.2.9
+Architecture: iphoneos-arm
+Maintainer: Junes <junesgraphics@gmail.com>
+Installed-Size: 1072
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: org.bigboss.datameter, cydia.kiiimo.org.datameter, com.repo.xarold.com.datameter, re.rejail.datameter, org.coolstar.ventana-modern, com.repo.xarold.com.ventana, cydia.kiiimo.org.ventana
+Filename: debs/com.junesiphone.xeninfo_2.2.9_iphoneos-arm.deb
+Size: 154322
+MD5sum: f529a5322442adc07af0e31c20a2075b
+SHA1: bd4c27ad36a204d7eebef20fd8bbc2b4d8e3601e
+SHA256: c6f49e6d106a7c75314e84b02e6a3f3a0cdffb0433b656e8003d30b066569c8c
+Section: Addons (Tweaks)
+Description: Music, Weather, and battery info for XenHTML
+Author: JunesIphone & Matchstic <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xeninfo
+Name: XenInfo
+
+Package: com.matchstic.xenhtml
+Version: 2.0~beta8
+Architecture: iphoneos-arm
+Maintainer: Matt Clarke <matt@incendo.ws>
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml, com.junesiphone.xeninfo, com.modmyi.widgetweather3, com.matchstic.infostats2, com.matchstic.infostats
+Filename: debs/com.matchstic.xenhtml_2.0~beta8_iphoneos-arm.deb
+Size: 8508250
+MD5sum: 9d56c5ee816008eb1a320c23c1adc4f4
+SHA1: d04c3f79c58de6c6b7f9f916d919a1b2167a9b2f
+SHA256: 827264538b42fbb000ca4ee2869da13cf53ec7b6464e5f0af767f53e62a1ad85
+Section: System
+Priority: optional
+Description: Run HTML widgets on the Lockscreen and Homescreen
+Author: Matt Clarke <matt@incendo.ws>
+Depiction: https://xenpublic.incendo.ws/depictions/com.matchstic.xenhtml.html
+Dev: Matt Clarke <matt@incendo.ws>
+Icon: file:///Library/PreferenceBundles/XenHTMLPrefs.bundle/IconPackageManager.png
+Name: Xen HTML
+Sileodepiction: https://xenpublic.incendo.ws/sileo/com.matchstic.xenhtml.json
+
+Package: com.megadev.bonzibuddy
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1411
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, ws.hbang.common
+Filename: debs/com.megadev.bonzibuddy_0.1-1_iphoneos-arm.deb
+Size: 474104
+MD5sum: 056fbdc71f90705f13982a938a5c05d0
+SHA1: 46744e1960427f6e3951052c4116dba2afa175a0
+SHA256: 82e9918fb511e9490146ebec70d9de1a3e7421a2ddcf92ed8eeacf5828f4fa2c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bonzibuddyDp
+Description: Bonzi Buddy ported to iOS. ofcourse without the malware :)
+Tag: purpose::extension, compatible::ios13
+Author: MegaDev <minazukidev@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bonzibuddyDp
+Dev: megadev
+Icon: file:///Library/PreferenceBundles/Bonzipref.bundle/icon@2x.png
+Name: Bonzi Buddy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.peterdev.xeon
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: PeterDev <djperter@icloud.com>
+Installed-Size: 2596
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), cy+cpu.arm64, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1), com.muirey03.libimagepicker
+Provides: com.alexzielenski.zeppelin
+Filename: debs/com.peterdev.xeon_1.1.1_iphoneos-arm.deb
+Size: 858390
+MD5sum: 6f55e3d1ee34282bc2c65209c1fb8a4a
+SHA1: 852c93b47c84e0594b201ce10e183e99433ff7fd
+SHA256: 80270e57506980dddae57ec7a70105274cb9eec91bf0c0e06c246ebbd5c8a6d8
+Section: Tweaks
+Description: Supercharge status bar!
+Author: PeterDev <djperter@icloud.com>
+Icon: https://nexusrepo.kro.kr/depictions/com.peterdev.xeon/screenshots/Icon.png
+Name: Xeon
+
+Package: com.ps.amber
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 528
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), gsc.camera-flash, firmware (>= 11.0) | com.a3tweaks.flipswitch, firmware (<< 11.0) | com.opa334.ccsupport
+Filename: debs/com.ps.amber_0.0.4_iphoneos-arm.deb
+Size: 52478
+MD5sum: 9a8d59a194e435041f02c73d9bc008ed
+SHA1: fd9e586a484ba2feeefc6d15985a6ca2001ccf2d
+SHA256: d30bb070024f9fe82dc20c1ee587ebf279c9ba9a3b0f99a4c026b53a5c0bad3d
+Section: Tweaks
+Description: Amber-ify your LED torch.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/amber.html
+Name: Amber
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/amber.json
+
+Package: com.rob311.sorrylowbattery
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1613
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/com.rob311.sorrylowbattery_1.5_iphoneos-arm.deb
+Size: 748344
+MD5sum: 2a4f6ad9c1bc73d2c106bee9dbb715e6
+SHA1: abce57736ccf30cd4822acac8df5112f4f31cd54
+SHA256: c758418fa9492b53fe6ae27039fe394c1bb8640c35bf825c7e13ae45ab5622fd
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sorrylowbatteryDp
+Description: set fake battery percentage from Settings
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: rob311 <rob@rob311.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sorrylowbatteryDp
+Dev: rob311
+Icon: file:///Library/PreferenceBundles/SorryLowBatteryPrefs.bundle/SorryLowBatteryPrefs@2x.png
+Name: SorryLowBattery
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.spark.snowboard
+Version: 1.4.12~Beta4
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 4828
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/com.spark.snowboard_1.4.12~Beta4_iphoneos-arm.deb
+Size: 1562164
+MD5sum: a4dc9696690c0711b57d8c8a327e7fcf
+SHA1: 389e7e7dc840e46aa0c601c86a6a42273005e91f
+SHA256: f517b7f5160a3d27282ecee016a23ecd1a6ace8dd7e23d63aca61e24a8ad2045
+Section: Tweaks
+Description: Snowboard theming engine
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard
+
 Package: com.yoshisuga.mame4ios
 Version: 2021.4
 Architecture: iphoneos-arm
@@ -47,6 +337,46 @@ Description: This is a port of MAME 0.139u1 for iOS 12+, iPadOS 12+, tvOS 12+ an
 Author: yoshisuga
 Icon: https://i.ibb.co/2YH4Phw/icon-2x.png
 Name: MAME4iOS
+
+Package: com.zx02.frame
+Version: 2.4.2
+Architecture: iphoneos-arm
+Maintainer: Zerui Chen
+Installed-Size: 8516
+Depends: mobilesubstrate,preferenceloader,firmware (>= 12.1.9)
+Filename: debs/com.zx02.frame_2.4.2_iphoneos-arm.deb
+Size: 1740536
+MD5sum: d102a41d5fa804f009b6218e359943f9
+SHA1: 67105b6ab689d82ee6ad5a5686cc92339fd31f86
+SHA256: f34f1eac5d2af3495c26dd4e49534fbd4c59880f48807023c5f198bd29b24e5f
+Section: Wallpaper
+Description: Bring your iDevice to life with true video wallpapers.
+Author: Zerui Chen
+Name: Frame
+
+Package: libactivator
+Version: 1.9.13
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Installed-Size: 5060
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Filename: debs/libactivator_1.9.13_iphoneos-arm.deb
+Size: 930776
+MD5sum: 3284dc032c096bc82c0fb4fa465a0386
+SHA1: a366dce78423356fb52b23e49447fd44d25d62ee
+SHA256: 35bde71d2a2d2ef02b7096e513f693744eb27445b8b2a610ce151f783407e8ad
+Section: System
+Priority: optional
+Homepage: https://rpetrich.com/cydia/activator/
+Description: Centralized gestures, button and shortcut management for iOS
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Depiction: https://rpetrich.com/cydia/activator/
+Dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Name: Activator
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.nepeta.relocatereborn
 Version: 1.0.1
@@ -84,6 +414,100 @@ Description: OpenJDK Java runtime, using Hotspot JIT
  using Hotspot JIT.
 Author: Hayden Seay
 Icon: https://i.ibb.co/LSkNNcB/icon-2x.png
+
+Package: org.mr.cozybadges
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 424
+Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
+Filename: debs/org.mr.appdata_1.2.3_iphoneos-arm.deb
+Size: 47858
+MD5sum: ccfd090f02a144e2cc33c4f45e39d03d
+SHA1: 9a2506ff68b63838038d28f1e7be8d4eb3e47c49
+SHA256: 7bc42c481b0d502420fdbf519494f3e29d8aa770eee0963a923ca380b9cb1960
+Section: Tweaks
+Description: A cozy place for your badges
+Author: NoisyFlake
+Depiction: https://mainrepo.org/package/2773
+Icon: https://repo.packix.com/api/Packages/5dd174b8f5b752001ad1efac/icon/download?size=medium
+Name: CozyBadges
+Sileodepiction: https://mainrepo.org/sileo/2773
+
+Package: org.mr.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: debs/org.mr.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 70712
+MD5sum: 6fd8390aeec1b0ed12844f616cb69bfb
+SHA1: 01972b1e87d98680ebba7339aef8c32fa2e82886
+SHA256: b7504b1c46d4111c3d06b954c89af9fb3bb1272c5c4688931eb5c36b39a3633b
+Section: Tweaks
+Description: Hacking in-game purchases
+Author: anondev
+Depiction: https://mainrepo.org/package/692
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: LocalIAPStore
+Sileodepiction: https://mainrepo.org/sileo/692
+
+Package: org.mr.newmorph
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: mobilesubstrate, org.mr.xenhtml | com.matchstic.xenhtml, org.mr.xeninfo | com.junesiphone.xeninfo
+Filename: debs/org.mr.colorbanners3_1.0.4_iphoneos-arm.deb
+Size: 231604
+MD5sum: 1d72b1adc902843b6789af47a4ac5197
+SHA1: ea2f201630ffa744f08e9724ab8b8c4338560edd
+SHA256: 051c6895fb12ca313cc161b7cec4951e66dae2209578aefdbb3a57382f9575c0
+Section: Widgets
+Description: Music, date, weather, battery widget. Depends on XenInfo.
+Author: CodeOne88 <sant.ortega88@gmail.com>
+Depiction: https://mainrepo.org/index.php?pid=374
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: NewMorph
+Sileodepiction: https://mainrepo.org/sileo.php?pid=374
+
+Package: org.mr.snapper2
+Version: 2.5.2
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 1532
+Depends: mobilesubstrate, firmware(>=12.1)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: debs/org.mr.snapper2_2.5.2_iphoneos-arm.deb
+Size: 327518
+MD5sum: b5b900248d5b943831e36bb63a447dd3
+SHA1: 014c29391a4a8c7ab29f77793c3c0a845e6b2138
+SHA256: c070a2231202c575c64ca225c8b97d876c5aa5b8e7630c93543ee8a9de6bfe1b
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Depiction: https://mainrepo.org/package/2848
+Icon: https://repo.packix.com/api/Packages/5cb75a7dfc3038001a2fc9fd/icon/download?size=medium
+Name: Snapper 2
+Sileodepiction: https://mainrepo.org/sileo/2848
+
+Package: org.mr.st5
+Version: 5.1.9
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 2408
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: debs/org.mr.st5_5.1.9_iphoneos-arm.deb
+Size: 466620
+MD5sum: 2e52cb5d70e87d13a5453d7b807777c2
+SHA1: a3152b789b34a61d8b177543ca72557e6bc17d02
+SHA256: 6ce35eff35df12ff613453b5eaf86f30038c90c385140c143f2b45d4484a12db
+Section: Tweaks
+Description: Customize your device like never before.
+Author: sharedRoutine
+Depiction: https://mainrepo.org/package/1347
+Icon: https://repo.packix.com/api/Packages/5e3af7ebac886b002f929657/icon/download?size=medium
+Name: Springtomize 5
+Sileodepiction: https://mainrepo.org/sileo/1347
 
 Package: pojavlauncher
 Version: 1.1
