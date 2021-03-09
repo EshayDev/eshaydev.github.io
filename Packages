@@ -415,24 +415,42 @@ Description: OpenJDK Java runtime, using Hotspot JIT
 Author: Hayden Seay
 Icon: https://i.ibb.co/LSkNNcB/icon-2x.png
 
-Package: org.mr.cozybadges
-Version: 1.2.3
+Package: org.mr.appdata
+Version: 1.2.4
 Architecture: iphoneos-arm
 Maintainer: MainRepo
-Installed-Size: 424
-Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
-Filename: debs/org.mr.appdata_1.2.3_iphoneos-arm.deb
-Size: 47858
-MD5sum: ccfd090f02a144e2cc33c4f45e39d03d
-SHA1: 9a2506ff68b63838038d28f1e7be8d4eb3e47c49
-SHA256: 7bc42c481b0d502420fdbf519494f3e29d8aa770eee0963a923ca380b9cb1960
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/org.mr.appdata_1.2.4_iphoneos-arm.deb
+Size: 171056
+MD5sum: 0db86781c19cb2c5d76080bf8e2c3374
+SHA1: a6c2201767c0bc081d5d1832e244260843f29e05
+SHA256: a77d74fb65e1eb6e254d3d48b5e4c7c2f97b15e7104373f777e7515a3fd32b92
 Section: Tweaks
-Description: A cozy place for your badges
-Author: NoisyFlake
-Depiction: https://mainrepo.org/package/2773
-Icon: https://repo.packix.com/api/Packages/5dd174b8f5b752001ad1efac/icon/download?size=medium
-Name: CozyBadges
-Sileodepiction: https://mainrepo.org/sileo/2773
+Description: View & Access Applications Data from Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://mainrepo.org/package/2825
+Icon: file:///Library/PreferenceLoader/Preferences/AppData@3x.png
+Name: AppData
+Sileodepiction: https://mainrepo.org/sileo/2825
+
+Package: org.mr.colorbanners3
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 680
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5.000), org.thebigboss.libcolorpicker (>= 1.1)
+Filename: debs/org.mr.colorbanners3_1.1.0_iphoneos-arm.deb
+Size: 222134
+MD5sum: d02295cfcb220e3a449bc77b177cf014
+SHA1: dfb201158594d38a41730934c079e5b41e175b55
+SHA256: f21e4c858d1aa17f06b77391b8e1564039d5fab3e3e7828e409055de446ada24
+Section: Tweaks
+Description: Spruce up your notifications
+Author: David Goldman <help@golddavid.com>
+Depiction: https://mainrepo.org/package/2479
+Icon: https://repo.packix.com/api/Packages/5dddbd0a75b84a001b1b8771/icon/download?size=medium
+Name: ColorBanners 3
+Sileodepiction: https://mainrepo.org/sileo/2479
 
 Package: org.mr.localiapstore
 Version: 1.4-4
@@ -451,24 +469,6 @@ Depiction: https://mainrepo.org/package/692
 Icon: https://mainrepo.org/CydiaIcon.png
 Name: LocalIAPStore
 Sileodepiction: https://mainrepo.org/sileo/692
-
-Package: org.mr.newmorph
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: MainRepo
-Depends: mobilesubstrate, org.mr.xenhtml | com.matchstic.xenhtml, org.mr.xeninfo | com.junesiphone.xeninfo
-Filename: debs/org.mr.colorbanners3_1.0.4_iphoneos-arm.deb
-Size: 231604
-MD5sum: 1d72b1adc902843b6789af47a4ac5197
-SHA1: ea2f201630ffa744f08e9724ab8b8c4338560edd
-SHA256: 051c6895fb12ca313cc161b7cec4951e66dae2209578aefdbb3a57382f9575c0
-Section: Widgets
-Description: Music, date, weather, battery widget. Depends on XenInfo.
-Author: CodeOne88 <sant.ortega88@gmail.com>
-Depiction: https://mainrepo.org/index.php?pid=374
-Icon: https://mainrepo.org/CydiaIcon.png
-Name: NewMorph
-Sileodepiction: https://mainrepo.org/sileo.php?pid=374
 
 Package: org.mr.snapper2
 Version: 2.5.2
